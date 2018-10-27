@@ -21,9 +21,9 @@ void writeImage(const char* path, const Mat image) {
 }
 
 Vec3b getPixel(const Mat image, int row, int col) {
-    return image.at<Vec3b>(Point(row, col));
+    return image.at<Vec3b>(Point(col,row));
 }
 
 void setPixel(Mat image, int row, int col, const Vec3b pixel) {
-    image.at<Vec3b>(Point(row,col)) = pixel;
+    image.at<Vec3b>(Point(col,row)) = pixel;
 }
