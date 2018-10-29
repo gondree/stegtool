@@ -70,12 +70,12 @@ void hide(Mat image, ifstream & file)
                 //     start at position 7 and work backwards to position 0
                 
                 // encode b into the LSB of ct
-                // if the whole 8 bits of ct is encoded:
-                //   get the next byte
+                // if the whole 8 bits of pt is encoded:
+                //   get the next byte for pt
                 //   if we hit EOF: use '\0' for the next byte
                 //   if we already processed the null byte: we are done
                 // else:
-                //  remember which bit we will encode next somehow
+                //  remember which bit of pt we will encode next somehow
 
 
     return;
