@@ -75,7 +75,7 @@ void hide(Mat image, ifstream & file)
                 //   if we hit EOF: use '\0' for the next byte
                 //   if we already processed the null byte: we are done
                 // else:
-                //  remember which bit we wll encode next somehow
+                //  remember which bit we will encode next somehow
 
 
     return;
