@@ -32,9 +32,9 @@ void writeImage(const char* path, const Mat image);
 // Gets the pixel at (row, col) and returns it.
 //
 // Each pixel 'px' is three bytes of data:
-//    px.value[0] is the red byte
-//    px.value[1] is the blue byte
-//    px.value[2] is the green byte
+//    px.val[0] is the red byte
+//    px.val[1] is the blue byte
+//    px.val[2] is the green byte
 //
 Vec3b getPixel(const Mat image, int row, int col);
 
